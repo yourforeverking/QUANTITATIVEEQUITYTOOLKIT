@@ -14,4 +14,6 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 @RunWith(AndroidJUnit4::class)
-class ExampleInst
+class ExampleInstrumentedTest {
+    @Test
+    fun us
