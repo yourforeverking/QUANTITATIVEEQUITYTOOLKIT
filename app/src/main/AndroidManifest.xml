@@ -6,4 +6,4 @@
     <application
         android:name=".CoinApp"
         android:allowBackup="true"
-    
+        android:icon="@mipmap/ic_launcher"
