@@ -10,4 +10,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Crypto
+        android:theme="@style/Theme.CryptocurrencyApp">
+        <activity
+   
