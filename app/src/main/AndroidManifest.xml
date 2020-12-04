@@ -12,4 +12,4 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CryptocurrencyApp">
         <activity
-   
+            android:name="com.crypto.currencya
