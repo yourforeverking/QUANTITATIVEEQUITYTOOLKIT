@@ -13,4 +13,5 @@
         android:theme="@style/Theme.CryptocurrencyApp">
         <activity
             android:name="com.crypto.currencyapp.presentation.MainActivity"
-      
+            android:exported="true"
+ 
