@@ -14,4 +14,4 @@
         <activity
             android:name="com.crypto.currencyapp.presentation.MainActivity"
             android:exported="true"
- 
+            android:label="@string/ap
