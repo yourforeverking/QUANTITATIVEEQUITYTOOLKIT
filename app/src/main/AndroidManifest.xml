@@ -15,4 +15,5 @@
             android:name="com.crypto.currencyapp.presentation.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@styl
+            android:theme="@style/Theme.CryptocurrencyApp.NoActionBar">
+ 
