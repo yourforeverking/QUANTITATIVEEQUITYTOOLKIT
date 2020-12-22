@@ -1,3 +1,3 @@
 package com.crypto.currencyapp.data.remote.dto
 
-im
+import com.crypto.currencyapp.domain.
