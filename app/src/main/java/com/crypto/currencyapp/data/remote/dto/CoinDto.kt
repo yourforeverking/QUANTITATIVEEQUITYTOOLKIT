@@ -5,4 +5,6 @@ import com.google.gson.annotations.SerializedName
 
 data class CoinDto(
     val id: String,
-    @SerializedNam
+    @SerializedName("is_active")
+    val isActive: Boolean,
+    
