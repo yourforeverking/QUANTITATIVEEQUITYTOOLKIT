@@ -10,4 +10,5 @@ data class CoinDto(
     @SerializedName("is_new")
     val isNew: Boolean,
     val name: String,
-  
+    val rank: Int,
+    val symbol: St
