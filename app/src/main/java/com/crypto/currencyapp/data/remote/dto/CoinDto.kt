@@ -11,4 +11,8 @@ data class CoinDto(
     val isNew: Boolean,
     val name: String,
     val rank: Int,
-    val symbol: St
+    val symbol: String,
+    val type: String
+)
+
+fun Coi
