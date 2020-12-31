@@ -15,4 +15,6 @@ data class CoinDto(
     val type: String
 )
 
-fun Coi
+fun CoinDto.toCoin(): Coin {
+    return Coin(
+ 
