@@ -18,4 +18,5 @@ data class CoinDto(
 fun CoinDto.toCoin(): Coin {
     return Coin(
         id = id,
-        isActive = isA
+        isActive = isActive,
+        name = nam
