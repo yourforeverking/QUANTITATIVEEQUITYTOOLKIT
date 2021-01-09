@@ -1,1 +1,4 @@
-package com.crypto.currency
+package com.crypto.currencyapp.data.remote.dto
+
+data class Links(
+  
