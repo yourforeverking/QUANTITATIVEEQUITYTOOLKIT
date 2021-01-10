@@ -2,4 +2,5 @@ package com.crypto.currencyapp.data.remote.dto
 
 data class Links(
     val explorer: List<String>,
-    val 
+    val facebook: List<String>,
+    val mediu
