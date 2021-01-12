@@ -6,4 +6,4 @@ data class Links(
     val medium: Any,
     val reddit: List<String>,
     val source_code: List<String>,
-    val
+    val website: List<String>,
