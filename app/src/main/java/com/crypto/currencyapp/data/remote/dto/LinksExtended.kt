@@ -1,3 +1,5 @@
 package com.crypto.currencyapp.data.remote.dto
 
-data class LinksE
+data class LinksExtended(
+    val stats: Stats,
+    val
