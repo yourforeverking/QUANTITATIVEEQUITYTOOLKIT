@@ -1,1 +1,3 @@
-package com.crypto.
+package com.crypto.currencyapp.data.remote.dto
+
+dat
