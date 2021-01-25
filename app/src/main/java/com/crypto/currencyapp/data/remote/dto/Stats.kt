@@ -1,3 +1,4 @@
 package com.crypto.currencyapp.data.remote.dto
 
-dat
+data class Stats(
+    val cont
