@@ -1,3 +1,5 @@
 package com.crypto.currencyapp.data.remote.dto
 
-data class Whitep
+data class Whitepaper(
+    val link: String,
+    val thumbn
