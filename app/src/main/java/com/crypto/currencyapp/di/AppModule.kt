@@ -1,3 +1,3 @@
 package com.crypto.currencyapp.di
 
-impor
+import com.crypto.currencyapp.common
