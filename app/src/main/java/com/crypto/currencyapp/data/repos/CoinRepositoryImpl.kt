@@ -15,3 +15,5 @@ class CoinRepositoryImpl @Inject constructor(private val api: CoinApi) : CoinRep
     override suspend fun getCoinById(coinId: String): CoinDetailDto {
         return api.getCoinById(coinId)
     }
+
+}
