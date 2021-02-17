@@ -6,4 +6,5 @@ import com.crypto.currencyapp.data.repos.CoinRepositoryImpl
 import com.crypto.currencyapp.domain.repos.CoinRepository
 import dagger.Module
 import dagger.Provides
-import dagger.hilt.Install
+import dagger.hilt.InstallIn
+import dagger.hilt.components.S
