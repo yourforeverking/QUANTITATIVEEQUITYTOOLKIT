@@ -18,4 +18,4 @@ object AppModule {
     @Provides
     @Singleton
     fun provideApi(): CoinApi {
- 
+        return Retrofit.Builder().baseU
