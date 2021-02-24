@@ -16,4 +16,6 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object AppModule {
     @Provides
-    @Singleto
+    @Singleton
+    fun provideApi(): CoinApi {
+ 
