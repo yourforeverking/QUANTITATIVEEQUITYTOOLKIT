@@ -19,4 +19,4 @@ object AppModule {
     @Singleton
     fun provideApi(): CoinApi {
         return Retrofit.Builder().baseUrl(ConstantsUtil.BASE_URL)
-          
+            .addConverterFactory(GsonConver
