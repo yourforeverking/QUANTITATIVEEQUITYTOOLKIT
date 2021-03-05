@@ -23,4 +23,5 @@ object AppModule {
     }
 
     @Provides
-  
+    @Singleton
+    fun provideCoinRepos
