@@ -19,4 +19,8 @@ object AppModule {
     @Singleton
     fun provideApi(): CoinApi {
         return Retrofit.Builder().baseUrl(ConstantsUtil.BASE_URL)
-            .addConverterFactory(GsonConverterFactory.create()).build().cr
+            .addConverterFactory(GsonConverterFactory.create()).build().create(CoinApi::class.java)
+    }
+
+    @Provides
+  
