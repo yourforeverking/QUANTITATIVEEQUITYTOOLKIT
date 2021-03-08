@@ -1,1 +1,3 @@
-package com.crypto.currencyapp.domain.mode
+package com.crypto.currencyapp.domain.model
+
+import com.google.gson.
