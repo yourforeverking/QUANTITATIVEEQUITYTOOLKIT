@@ -1,1 +1,1 @@
-p
+package com.crypto.currencyapp.domain.mode
