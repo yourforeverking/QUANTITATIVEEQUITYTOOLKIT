@@ -1,1 +1,3 @@
-package com.cry
+package com.crypto.currencyapp.domain.model
+
+import 
