@@ -1,3 +1,3 @@
 package com.crypto.currencyapp.domain.model
 
-import 
+import com.crypto.currencyapp.data.remote.dto.Tea
