@@ -1,3 +1,3 @@
 package com.crypto.currencyapp.domain.repos
 
-import c
+import com.crypto.currencyapp.data.remote.dto.CoinDeta
