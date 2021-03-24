@@ -6,4 +6,4 @@ import com.crypto.currencyapp.data.remote.dto.CoinDto
 interface CoinRepository {
     suspend fun getCoins(): List<CoinDto>
 
-    suspend
+    suspend fun getCoinById(coinId: String): CoinDetailDt
