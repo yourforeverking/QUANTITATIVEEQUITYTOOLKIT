@@ -11,4 +11,6 @@ import java.io.IOException
 import javax.inject.Inject
 
 class GetCoinsUseCase @Inject constructor(
-    private val repository: CoinReposi
+    private val repository: CoinRepository
+) {
+    operator fun invoke(): Flow<Res
