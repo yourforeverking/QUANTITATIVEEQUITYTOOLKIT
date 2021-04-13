@@ -15,4 +15,4 @@ class GetCoinsUseCase @Inject constructor(
 ) {
     operator fun invoke(): Flow<Resource<List<Coin>>> = flow {
         try {
-      
+            emit(Resource.Loading<List<Coin
