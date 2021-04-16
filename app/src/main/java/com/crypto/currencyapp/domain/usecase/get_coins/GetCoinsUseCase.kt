@@ -18,4 +18,4 @@ class GetCoinsUseCase @Inject constructor(
             emit(Resource.Loading<List<Coin>>())
             val coins = repository.getCoins().map { it.toCoin() }
             println(coins)
-       
+            emit(Resource.Success<List<C
