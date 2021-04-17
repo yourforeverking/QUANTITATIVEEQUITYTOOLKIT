@@ -19,4 +19,5 @@ class GetCoinsUseCase @Inject constructor(
             val coins = repository.getCoins().map { it.toCoin() }
             println(coins)
             emit(Resource.Success<List<Coin>>(coins))
-        } catch (e: Ht
+        } catch (e: HttpException) {
+            println(e.
