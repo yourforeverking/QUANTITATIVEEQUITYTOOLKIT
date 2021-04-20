@@ -20,4 +20,5 @@ class GetCoinsUseCase @Inject constructor(
             println(coins)
             emit(Resource.Success<List<Coin>>(coins))
         } catch (e: HttpException) {
-            println(e.
+            println(e.message())
+            emit(Resourc
