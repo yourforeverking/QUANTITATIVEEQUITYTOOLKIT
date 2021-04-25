@@ -23,4 +23,5 @@ class GetCoinsUseCase @Inject constructor(
             println(e.message())
             emit(Resource.Error<List<Coin>>(e.localizedMessage ?: "Error occurred..."))
         } catch (e: IOException) {
-            emit(Resource.Error<List<Coin>>
+            emit(Resource.Error<List<Coin>>("Check Internet connection....."))
+  
