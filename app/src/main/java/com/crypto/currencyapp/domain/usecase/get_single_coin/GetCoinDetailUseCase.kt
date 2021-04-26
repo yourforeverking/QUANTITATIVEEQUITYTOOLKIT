@@ -1,1 +1,1 @@
-package com.crypto.curr
+package com.crypto.currencyapp.domain.usecase.get_single
