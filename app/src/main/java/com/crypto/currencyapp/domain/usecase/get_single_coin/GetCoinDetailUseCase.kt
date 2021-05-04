@@ -6,4 +6,6 @@ import com.crypto.currencyapp.domain.model.CoinDetail
 import com.crypto.currencyapp.domain.repos.CoinRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
-import retrofit2.HttpExcepti
+import retrofit2.HttpException
+import java.io.IOException
+import ja
