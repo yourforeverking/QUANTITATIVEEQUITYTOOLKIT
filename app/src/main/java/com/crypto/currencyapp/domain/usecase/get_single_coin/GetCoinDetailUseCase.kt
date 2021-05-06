@@ -10,4 +10,5 @@ import retrofit2.HttpException
 import java.io.IOException
 import javax.inject.Inject
 
-class GetCoinDetail
+class GetCoinDetailUseCase @Inject constructor(
+    privat
