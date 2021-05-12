@@ -15,4 +15,5 @@ class GetCoinDetailUseCase @Inject constructor(
 ) {
     operator fun invoke(coinId: String): Flow<Resource<CoinDetail>> = flow {
         try {
-            emit(Resource
+            emit(Resource.Loading<CoinDetail>())
+            val coin =
