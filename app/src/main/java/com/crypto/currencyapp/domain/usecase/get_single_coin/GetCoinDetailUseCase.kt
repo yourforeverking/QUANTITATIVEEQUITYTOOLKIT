@@ -17,4 +17,5 @@ class GetCoinDetailUseCase @Inject constructor(
         try {
             emit(Resource.Loading<CoinDetail>())
             val coin = repository.getCoinById(coinId).toCoinDetail()
-            emit(Resource
+            emit(Resource.Success<CoinDetail>(coin))
+        
