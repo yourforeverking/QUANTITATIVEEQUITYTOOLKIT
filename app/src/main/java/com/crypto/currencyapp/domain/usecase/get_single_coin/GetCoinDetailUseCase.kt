@@ -21,4 +21,5 @@ class GetCoinDetailUseCase @Inject constructor(
         } catch (e: HttpException) {
             emit(Resource.Error<CoinDetail>(e.localizedMessage ?: "Error occurred..."))
         } catch (e: IOException) {
-            emit(Resource.Error<CoinDetail
+            emit(Resource.Error<CoinDetail>("Check Internet connection....."))
+        }
