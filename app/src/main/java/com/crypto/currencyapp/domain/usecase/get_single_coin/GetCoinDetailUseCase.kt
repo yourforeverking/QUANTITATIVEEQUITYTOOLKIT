@@ -23,3 +23,5 @@ class GetCoinDetailUseCase @Inject constructor(
         } catch (e: IOException) {
             emit(Resource.Error<CoinDetail>("Check Internet connection....."))
         }
+    }
+}
