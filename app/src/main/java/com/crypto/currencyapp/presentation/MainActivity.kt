@@ -9,4 +9,5 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.crypto.currencyapp.presentation.cryptodetail.CoinDetailScreen
-import com.crypto.currencyapp.presentation
+import com.crypto.currencyapp.presentation.cyptolist.CoinListScreen
+import com
