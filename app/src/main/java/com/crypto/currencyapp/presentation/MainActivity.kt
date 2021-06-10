@@ -11,4 +11,6 @@ import androidx.navigation.compose.rememberNavController
 import com.crypto.currencyapp.presentation.cryptodetail.CoinDetailScreen
 import com.crypto.currencyapp.presentation.cyptolist.CoinListScreen
 import com.crypto.currencyapp.presentation.ui.theme.CryptocurrencyAppYTTheme
-import dagg
+import dagger.hilt.android.AndroidEntryPoint
+
+@Andr
