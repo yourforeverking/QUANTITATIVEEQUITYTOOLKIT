@@ -14,4 +14,5 @@ import com.crypto.currencyapp.presentation.ui.theme.CryptocurrencyAppYTTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class MainActivity : Comp
+class MainActivity : ComponentActivity() {
+    override fun onCreate
