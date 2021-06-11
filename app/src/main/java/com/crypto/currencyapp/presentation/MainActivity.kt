@@ -13,4 +13,5 @@ import com.crypto.currencyapp.presentation.cyptolist.CoinListScreen
 import com.crypto.currencyapp.presentation.ui.theme.CryptocurrencyAppYTTheme
 import dagger.hilt.android.AndroidEntryPoint
 
-@Andr
+@AndroidEntryPoint
+class MainActivity : Comp
