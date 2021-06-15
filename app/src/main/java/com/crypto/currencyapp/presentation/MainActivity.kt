@@ -19,4 +19,5 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             CryptocurrencyAppYTTheme {
-                Surface(color = MaterialTheme
+                Surface(color = MaterialTheme.colors.background) {
+                    val 
