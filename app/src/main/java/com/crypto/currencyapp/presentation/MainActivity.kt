@@ -20,4 +20,4 @@ class MainActivity : ComponentActivity() {
         setContent {
             CryptocurrencyAppYTTheme {
                 Surface(color = MaterialTheme.colors.background) {
-                    val 
+                    val navController = rememberNavController(
