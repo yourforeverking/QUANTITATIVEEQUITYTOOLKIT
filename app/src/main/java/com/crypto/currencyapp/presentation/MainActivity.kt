@@ -34,4 +34,5 @@ class MainActivity : ComponentActivity() {
                             route = Screen.CoinDetailScreen.route + "/{coinId}"
                         ) {
                             CoinDetailScreen()
-   
+                        }
+              
