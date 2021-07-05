@@ -35,4 +35,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CoinDetailScreen()
                         }
-              
+                    }
+                }
+            }
+  
