@@ -14,3 +14,49 @@ import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.navigation.NavController
+import com.crypto.currencyapp.data.remote.dto.TeamMember
+import com.crypto.currencyapp.presentation.Screen
+import com.crypto.currencyapp.presentation.cryptodetail.compos.CoinTag
+import com.crypto.currencyapp.presentation.cryptodetail.compos.TeamListItem
+import com.crypto.currencyapp.presentation.cyptolist.compos.CoinListItem
+import com.google.accompanist.flowlayout.FlowRow
+
+@Composable
+fun CoinDetailScreen(
+    viewModel: CoinDetailViewModel = hiltViewModel()
+) {
+    val state = viewModel.state.value
+    Box(modifier = Modifier.fillMaxSize()) {
+        state.coin?.let { coin ->
+            LazyColumn(
+                modifier = Modifier.fillMaxSize(),
+                contentPadding = PaddingValues(20.dp)
+            ) {
+                item {
+                    Row(
+                        modifier = Modifier
+                            .fillMaxSize(),
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Text(
+                            text = "${coin.rank}. ${coin.name} (${coin.symbol})",
+                            style = MaterialTheme.typography.h2,
+                            modifier = Modifier.weight(8f)
+                        )
+                        Text(
+                            text = if (coin.isActive) "active" else "inactive",
+                            color = if (coin.isActive) Color.Yellow else Color.Red,
+                            fontStyle = FontStyle.Italic,
+                            textAlign = TextAlign.End,
+                            modifier = Modifier
+                                .align(CenterVertically)
+                                .weight(2f)
+                        )
+                    }
+                    Spacer(modifier = Modifier.height(15.dp))
+                    Text(
+                        text = coin.description,
