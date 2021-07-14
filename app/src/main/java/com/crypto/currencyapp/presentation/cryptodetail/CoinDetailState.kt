@@ -5,4 +5,5 @@ import com.crypto.currencyapp.domain.model.CoinDetail
 
 data class CoinDetailState(
     val isLoading: Boolean = false,
-    val coin: C
+    val coin: CoinDetail? = null,
+    val error: Strin
