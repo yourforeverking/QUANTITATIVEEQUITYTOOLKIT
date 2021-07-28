@@ -7,4 +7,5 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.crypto.currencyapp.commonutil.ConstantsUtil
 import com.crypto.currencyapp.commonutil.Resource
-import com.crypto.currencyapp.domain.
+import com.crypto.currencyapp.domain.model.Coin
+import com.crypto.curren
