@@ -8,4 +8,5 @@ import androidx.lifecycle.viewModelScope
 import com.crypto.currencyapp.commonutil.ConstantsUtil
 import com.crypto.currencyapp.commonutil.Resource
 import com.crypto.currencyapp.domain.model.Coin
-import com.crypto.currencyapp.domain.usecase.get_coins.GetC
+import com.crypto.currencyapp.domain.usecase.get_coins.GetCoinsUseCase
+import com.crypto.curr
