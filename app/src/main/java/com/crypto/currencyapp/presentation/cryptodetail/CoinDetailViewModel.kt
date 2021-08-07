@@ -17,4 +17,4 @@ import javax.inject.Inject
 
 @HiltViewModel
 class CoinDetailViewModel @Inject constructor(
-    private val getCoinDetailUs
+    private val getCoinDetailUseCase: GetCoinDetailUseCase,
