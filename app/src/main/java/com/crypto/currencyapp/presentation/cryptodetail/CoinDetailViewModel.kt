@@ -16,4 +16,5 @@ import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject
 
 @HiltViewModel
-class CoinDetailViewModel @Inje
+class CoinDetailViewModel @Inject constructor(
+    private val getCoinDetailUs
