@@ -21,4 +21,4 @@ class CoinDetailViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle
 ) : ViewModel() {
     private val _state = mutableStateOf(CoinDetailState())
- 
+    val state: State<CoinDetailState> = _st
