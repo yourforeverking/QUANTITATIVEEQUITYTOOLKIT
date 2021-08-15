@@ -24,4 +24,5 @@ class CoinDetailViewModel @Inject constructor(
     val state: State<CoinDetailState> = _state
 
     init {
-        savedStateHandle.get<String>(ConstantsUtil.COIN_ID)
+        savedStateHandle.get<String>(ConstantsUtil.COIN_ID)?.let { coinId ->
+            getCoi
