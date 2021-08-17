@@ -29,3 +29,4 @@ class CoinDetailViewModel @Inject constructor(
         }
     }
     
+    private fun getCoinDetail(coinId: Stri
