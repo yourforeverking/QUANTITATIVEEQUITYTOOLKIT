@@ -29,4 +29,5 @@ class CoinDetailViewModel @Inject constructor(
         }
     }
     
-    private fun getCoinDetail(coinId: Stri
+    private fun getCoinDetail(coinId: String) {
+        getCoinDetailUseCase(coinId)
