@@ -30,4 +30,5 @@ class CoinDetailViewModel @Inject constructor(
     }
     
     private fun getCoinDetail(coinId: String) {
-        getCoinDetailUseCase(coinId)
+        getCoinDetailUseCase(coinId).onEach { result ->
+            when (res
