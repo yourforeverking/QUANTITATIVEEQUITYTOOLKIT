@@ -35,4 +35,4 @@ class CoinDetailViewModel @Inject constructor(
                 is Resource.Success -> {
                     _state.value = CoinDetailState(coin = result.data)
                 }
-       
+                is Resource.Error -> 
