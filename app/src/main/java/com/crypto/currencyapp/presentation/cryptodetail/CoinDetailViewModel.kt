@@ -42,4 +42,6 @@ class CoinDetailViewModel @Inject constructor(
                     _state.value = CoinDetailState(isLoading = true)
                 }
             }
-  
+        }.launchIn(viewModelScope)
+    }
+}
