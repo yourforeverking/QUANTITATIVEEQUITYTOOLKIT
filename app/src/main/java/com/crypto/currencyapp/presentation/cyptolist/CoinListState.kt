@@ -1,3 +1,3 @@
 package com.crypto.currencyapp.presentation.cyptolist
 
-import com.crypt
+import com.crypto.currencyapp.domain.model.Coi
