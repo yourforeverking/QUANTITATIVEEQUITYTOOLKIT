@@ -9,4 +9,5 @@ import com.crypto.currencyapp.domain.model.Coin
 import com.crypto.currencyapp.domain.usecase.get_coins.GetCoinsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
-import ko
+import kotlinx.coroutines.flow.onEach
+import 
