@@ -7,4 +7,5 @@ import androidx.lifecycle.viewModelScope
 import com.crypto.currencyapp.commonutil.Resource
 import com.crypto.currencyapp.domain.model.Coin
 import com.crypto.currencyapp.domain.usecase.get_coins.GetCoinsUseCase
-import dagger.hilt.android.
+import dagger.hilt.android.lifecycle.HiltViewModel
+import kotli
