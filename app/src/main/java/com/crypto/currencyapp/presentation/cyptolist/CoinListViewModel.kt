@@ -14,4 +14,6 @@ import javax.inject.Inject
 
 @HiltViewModel
 class CoinListViewModel @Inject constructor(
-    private val getCoinsUseCase: GetC
+    private val getCoinsUseCase: GetCoinsUseCase
+) : ViewModel() {
+    private va
