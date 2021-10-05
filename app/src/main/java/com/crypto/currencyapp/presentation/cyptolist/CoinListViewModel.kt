@@ -21,4 +21,7 @@ class CoinListViewModel @Inject constructor(
 
     init {
         getCoins()
-   
+    }
+
+    private fun getCoins() {
+      
