@@ -1,1 +1,1 @@
-package co
+package com.crypto.currencyapp.presentation.cyptolist.
