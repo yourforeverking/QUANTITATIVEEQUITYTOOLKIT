@@ -36,4 +36,6 @@ class CoinListViewModel @Inject constructor(
                     _state.value = CoinListState(isLoading = true)
                 }
             }
-        }.launchIn(v
+        }.launchIn(viewModelScope)
+    }
+}
