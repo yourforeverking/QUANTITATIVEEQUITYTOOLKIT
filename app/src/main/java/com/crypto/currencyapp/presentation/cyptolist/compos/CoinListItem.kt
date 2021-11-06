@@ -8,4 +8,5 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-im
+import androidx.compose.ui.Alignment
+import an
