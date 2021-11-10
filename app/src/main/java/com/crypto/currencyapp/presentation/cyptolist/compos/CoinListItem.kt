@@ -9,4 +9,4 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
-import an
+import androidx.compose.ui.Alignment.Companion.C
