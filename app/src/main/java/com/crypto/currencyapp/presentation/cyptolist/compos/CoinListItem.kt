@@ -12,4 +12,5 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import andr
+import androidx.compose.ui.text.font.FontStyle
+import androidx
