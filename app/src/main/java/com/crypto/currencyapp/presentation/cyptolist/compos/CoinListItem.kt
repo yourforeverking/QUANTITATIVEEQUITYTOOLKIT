@@ -20,3 +20,5 @@ import com.crypto.currencyapp.domain.model.Coin
 
 @Composable
 fun CoinListItem(
+    coin: Coin,
+    onItemClick: 
