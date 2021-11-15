@@ -21,4 +21,7 @@ import com.crypto.currencyapp.domain.model.Coin
 @Composable
 fun CoinListItem(
     coin: Coin,
-    onItemClick: 
+    onItemClick: (Coin) -> Unit
+) {
+    Row(
+        modi
