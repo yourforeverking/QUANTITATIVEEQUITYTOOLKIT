@@ -30,4 +30,5 @@ fun CoinListItem(
             .padding(20.dp),
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
-      
+        Text(
+            text =
