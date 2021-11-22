@@ -37,4 +37,5 @@ fun CoinListItem(
         )
         Text(
             text = if(coin.isActive) "Active" else "Inactive",
-            color = if(coin.isActi
+            color = if(coin.isActive) Color.Yellow else Color.Red,
+   
