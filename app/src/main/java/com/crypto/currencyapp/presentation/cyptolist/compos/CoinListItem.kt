@@ -40,4 +40,4 @@ fun CoinListItem(
             color = if(coin.isActive) Color.Yellow else Color.Red,
             fontStyle = FontStyle.Italic,
             textAlign = TextAlign.End,
-            style = Materi
+            style = MaterialTheme.typography.body2,
