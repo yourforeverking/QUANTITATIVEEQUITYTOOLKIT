@@ -39,4 +39,5 @@ fun CoinListItem(
             text = if(coin.isActive) "Active" else "Inactive",
             color = if(coin.isActive) Color.Yellow else Color.Red,
             fontStyle = FontStyle.Italic,
-            textAlign = Tex
+            textAlign = TextAlign.End,
+            style = Materi
