@@ -44,3 +44,4 @@ fun CoinListItem(
             modifier = Modifier.align(CenterVertically)
         )
     }
+}
