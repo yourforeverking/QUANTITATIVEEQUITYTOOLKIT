@@ -1,1 +1,1 @@
-package com.crypto
+package com.crypto.currencyapp.presentation.ui.theme
