@@ -10,3 +10,7 @@ private val DarkColorPalette = darkColors(
     primary = ColorPrimary,
     background = DarkGray,
     onBackground = TextWhite,
+    onPrimary = DarkGray
+)
+
+private val L
