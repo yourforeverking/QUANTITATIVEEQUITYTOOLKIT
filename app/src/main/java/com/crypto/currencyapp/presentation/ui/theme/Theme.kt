@@ -20,4 +20,5 @@ private val LightColorPalette = lightColors(
     onPrimary = DarkGray
 )
 
-@C
+@Composable
+fun CryptocurrencyAppYTTheme(darkT
