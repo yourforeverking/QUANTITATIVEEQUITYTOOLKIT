@@ -21,4 +21,4 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun CryptocurrencyAppYTTheme(darkT
+fun CryptocurrencyAppYTTheme(darkTheme: Boolean = true, content: @Comp
