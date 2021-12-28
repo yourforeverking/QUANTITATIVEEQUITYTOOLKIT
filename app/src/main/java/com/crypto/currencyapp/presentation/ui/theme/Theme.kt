@@ -22,4 +22,5 @@ private val LightColorPalette = lightColors(
 
 @Composable
 fun CryptocurrencyAppYTTheme(darkTheme: Boolean = true, content: @Composable() () -> Unit) {
-    val colors
+    val colors = if (darkTheme) {
+        DarkColo
