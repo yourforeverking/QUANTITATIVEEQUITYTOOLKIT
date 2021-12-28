@@ -25,4 +25,7 @@ fun CryptocurrencyAppYTTheme(darkTheme: Boolean = true, content: @Composable() (
     val colors = if (darkTheme) {
         DarkColorPalette
     } else {
-        LightColorPale
+        LightColorPalette
+    }
+
+    MaterialTheme(
