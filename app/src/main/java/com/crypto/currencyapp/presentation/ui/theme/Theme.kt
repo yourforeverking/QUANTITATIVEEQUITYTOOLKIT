@@ -32,4 +32,6 @@ fun CryptocurrencyAppYTTheme(darkTheme: Boolean = true, content: @Composable() (
         colors = colors,
         typography = Typography,
         shapes = Shapes,
-      
+        content = content
+    )
+}
