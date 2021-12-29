@@ -29,3 +29,5 @@ fun CryptocurrencyAppYTTheme(darkTheme: Boolean = true, content: @Composable() (
     }
 
     MaterialTheme(
+        colors = colors,
+        typography = Typ
