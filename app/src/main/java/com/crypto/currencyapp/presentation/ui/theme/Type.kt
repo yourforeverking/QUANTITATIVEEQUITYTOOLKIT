@@ -9,4 +9,7 @@ import androidx.compose.ui.unit.sp
 // Set of Material typography styles to start with
 val Typography = Typography(
     h1 = TextStyle(
-        fontWeight = FontWeight.Bold
+        fontWeight = FontWeight.Bold,
+        fontSize = 30.sp,
+    ),
+    h2
