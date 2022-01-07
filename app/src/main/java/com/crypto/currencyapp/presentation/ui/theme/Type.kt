@@ -13,4 +13,5 @@ val Typography = Typography(
         fontSize = 30.sp,
     ),
     h2 = TextStyle(
-        fontWeight 
+        fontWeight = FontWeight.SemiBold,
+        fontSi
