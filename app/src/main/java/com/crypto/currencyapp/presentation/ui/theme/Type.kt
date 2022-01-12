@@ -21,4 +21,6 @@ val Typography = Typography(
         fontSize = 20.sp
     ),
     h4 = TextStyle(
-        fontWeight = FontWeigh
+        fontWeight = FontWeight.Medium,
+        fontSize = 16.sp
+ 
