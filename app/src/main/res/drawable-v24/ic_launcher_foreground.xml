@@ -11,4 +11,5 @@
                 android:endY="92.4963"
                 android:startX="42.9492"
                 android:startY="49.59793"
-                android:t
+                android:type="linear">
+                <
