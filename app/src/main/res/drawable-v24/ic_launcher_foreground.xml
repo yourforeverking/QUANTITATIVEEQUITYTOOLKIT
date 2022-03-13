@@ -17,4 +17,6 @@
                     android:offset="0.0" />
                 <item
                     android:color="#00000000"
-                    android:of
+                    android:offset="1.0" />
+            </gradient>
+        </aa
