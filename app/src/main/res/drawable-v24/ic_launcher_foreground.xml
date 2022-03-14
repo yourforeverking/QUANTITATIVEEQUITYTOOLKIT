@@ -22,4 +22,5 @@
         </aapt:attr>
     </path>
     <path
- 
+        android:fillColor="#FFFFFF"
+   
