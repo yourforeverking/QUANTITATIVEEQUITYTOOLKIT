@@ -1,3 +1,4 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.CryptocurrencyApp" parent="Theme.MaterialComponents.DayNight.Da
+    <style name="Theme.CryptocurrencyApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Prima
