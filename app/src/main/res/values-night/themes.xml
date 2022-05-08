@@ -4,4 +4,5 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary</item>
-        <item name="color
+        <item name="colorOnPrimary">@color/black</item>
+        <!
