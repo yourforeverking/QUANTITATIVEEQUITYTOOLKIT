@@ -9,4 +9,5 @@
         <item name="colorSecondary">@color/primary</item>
         <item name="colorSecondaryVariant">@color/primary</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status ba
+        <!-- Status bar color. -->
+        <item name="android:
