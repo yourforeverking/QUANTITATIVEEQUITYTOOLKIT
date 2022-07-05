@@ -8,4 +8,4 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath "co
+        classpath "com.android.tools.build:gradle:
