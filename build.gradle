@@ -8,4 +8,5 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:
+        classpath "com.android.tools.build:gradle:7.0.2"
+        classpath "org.jetbrains.k
