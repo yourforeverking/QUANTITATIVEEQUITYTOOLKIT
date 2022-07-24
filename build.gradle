@@ -18,4 +18,5 @@ buildscript {
 }
 
 task clean(type: Delete) {
-    del
+    delete rootProject.buildDir
+}
