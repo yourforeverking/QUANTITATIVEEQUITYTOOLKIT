@@ -1,4 +1,4 @@
 @rem
 @rem Copyright 2015 the original author or authors.
 @rem
-@rem Licen
+@rem Licensed under the Apache License, Vers
