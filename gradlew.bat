@@ -14,4 +14,5 @@
 @rem limitations under the License.
 @rem
 
-@i
+@if "%DEBUG%" == "" @echo off
+@rem #######
