@@ -22,4 +22,6 @@
 @rem ##########################################################################
 
 @rem Set local scope for the variables with windows NT shell
-if "%OS%"
+if "%OS%"=="Windows_NT" setlocal
+
+set DIRNAME=%
