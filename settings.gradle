@@ -3,4 +3,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is g
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+r
