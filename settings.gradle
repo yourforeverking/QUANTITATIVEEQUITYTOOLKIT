@@ -6,4 +6,5 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-r
+rootProject.name = "CoinApp"
+include ':app'
